@@ -1,0 +1,128 @@
+.container {
+    max-width: 1280px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 70px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+header .logo {
+    display: flex;
+    column-gap: 12px;
+}
+
+header .logo .logo-image {
+    height: 36px;
+    width: 36px;
+    object-fit: contain;
+}
+
+header .logo .logo-header {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+header .nav-wrapper {
+   display: flex;
+   column-gap: 28px;
+}
+
+.nav-wrapper .nav-item {
+    display: inline;
+    color: #555555;
+}
+
+.nav-wrapper .nav-item.red {
+    color: #FF3998;
+}
+
+.hero {
+    margin-top: 87px;
+    display: flex;
+    margin-right: 240px;
+}
+
+.hero-text {
+    width: 537px;
+}
+
+.launching-soon {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FF3998;
+    font-size: bold;
+}
+
+h1.hero-header {
+    font-size: 96px;
+    font-weight: 900;
+    margin: 15px 0px;
+}
+
+.paragraph {
+    font-weight: 400;
+}
+
+.hero-paragraph {
+    color: #555555;
+    font-weight: 400;
+
+}
+
+.button {
+    border: 4px solid pink;
+    border-radius: 49.46px;
+    width: 188px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.hero .hero-graphics {
+    display: flex;
+}
+
+.hero .hero-graphics img {
+    width: 500px;
+    height: 100%;
+    object-fit: contain;
+}
+
+.upsell { 
+margin-top: 30px;
+max-width: 1280px;
+min-height: 320px;
+background-image: url(background.svg);
+display: grid;
+align-items: end;
+
+}
+
+.upsell-text {
+    padding-left: 64px;
+    padding-bottom: 64px;
+}
+
+.midi-header {
+ font-size: 40px;
+ font-weight: 500;
+}
+
+.press .press-items {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+   
+}
